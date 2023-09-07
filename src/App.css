@@ -1,10 +1,47 @@
-.App {
+table,
+td {
+  border: 1px solid black;
+}
+
+.App-blank-cell {
+  background-color: black;
+}
+
+table {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+td {
+  padding: 5px;
+  width: 25px;
   text-align: center;
+}
+
+.App {
+  font-size: 20px;
+  text-align: center;
+}
+
+.App-count {
+  margin-left: 10px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.App-button {
+  font-size: 15px;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,6 +69,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
